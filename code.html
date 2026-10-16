@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+
+<html dir="rtl" lang="ar"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{width:100vw;margin:0;padding:0;}body{overscroll-behavior:none;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"surface-dim":"#dddad4","on-tertiary-fixed-variant":"#623f18","primary-container":"#4a1228","primary-fixed":"#ffd9e2","on-tertiary-container":"#b38558","surface":"#fdf9f3","on-primary-container":"#c5778f","background":"#fdf9f3","inverse-primary":"#ffb1c7","surface-tint":"#8d495f","inverse-on-surface":"#f4f0ea","on-tertiary":"#ffffff","outline-variant":"#d7c1c5","on-secondary-container":"#795b56","on-secondary-fixed-variant":"#5b403b","on-secondary-fixed":"#2b1612","on-error-container":"#93000a","secondary-container":"#ffd7cf","on-surface":"#1c1c18","surface-bright":"#fdf9f3","secondary-fixed-dim":"#e4beb7","on-primary-fixed":"#3b061c","outline":"#847376","primary-fixed-dim":"#ffb1c7","inverse-surface":"#31302d","surface-container-high":"#ebe8e2","tertiary-container":"#3c2000","on-primary-fixed-variant":"#713248","surface-variant":"#e6e2dc","tertiary-fixed":"#ffdcbd","primary":"#2e0013","on-primary":"#ffffff","on-background":"#1c1c18","error-container":"#ffdad6","tertiary-fixed-dim":"#f0bd8b","surface-container-lowest":"#ffffff","surface-container-low":"#f7f3ed","secondary-fixed":"#ffdad3","on-tertiary-fixed":"#2c1600","tertiary":"#200e00","on-surface-variant":"#524346","surface-container-highest":"#e6e2dc","on-secondary":"#ffffff","error":"#ba1a1a","on-error":"#ffffff","secondary":"#755752","surface-container":"#f1ede7"},"borderRadius":{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"},"spacing":{"margin":"2rem","gutter-lg":"2.5rem","gutter":"1.5rem","margin-sm":"1.25rem","margin-lg":"4rem","space-lg":"1.75rem","space-md":"1rem","gutter-sm":"1rem","space-xs":"0.25rem","space-sm":"0.5rem","space-xl":"3rem"},"fontFamily":{"headline-lg-mobile":["DM Sans"],"label-lg":["DM Sans"],"display-hero":["DM Sans"],"body-md":["DM Sans"],"label-md":["DM Sans"],"label-sm":["DM Sans"],"headline-md":["DM Sans"],"headline-lg":["DM Sans"],"headline-sm":["DM Sans"],"body-sm":["DM Sans"],"body-lg":["DM Sans"],"display-hero-mobile":["DM Sans"],"title-md":["DM Sans"]},"fontSize":{"headline-lg-mobile":["28px",{"lineHeight":"36px","letterSpacing":"0em","fontWeight":"400"}],"label-lg":["14px",{"lineHeight":"18px","letterSpacing":"0.08em","fontWeight":"600"}],"display-hero":["56px",{"lineHeight":"64px","letterSpacing":"-0.02em","fontWeight":"300"}],"body-md":["15px",{"lineHeight":"24px","letterSpacing":"0.01em","fontWeight":"400"}],"label-md":["12px",{"lineHeight":"16px","letterSpacing":"0.1em","fontWeight":"500"}],"label-sm":["11px",{"lineHeight":"14px","letterSpacing":"0.12em","fontWeight":"500"}],"headline-md":["28px",{"lineHeight":"36px","letterSpacing":"-0.01em","fontWeight":"500"}],"headline-lg":["40px",{"lineHeight":"48px","letterSpacing":"-0.015em","fontWeight":"400"}],"headline-sm":["22px",{"lineHeight":"30px","letterSpacing":"0em","fontWeight":"500"}],"body-sm":["13px",{"lineHeight":"20px","letterSpacing":"0.015em","fontWeight":"400"}],"body-lg":["17px",{"lineHeight":"28px","letterSpacing":"0.01em","fontWeight":"400"}],"display-hero-mobile":["36px",{"lineHeight":"44px","letterSpacing":"-0.01em","fontWeight":"400"}],"title-md":["18px",{"lineHeight":"26px","letterSpacing":"0.005em","fontWeight":"600"}]}}}};</script></head><body class="bg-surface text-on-surface font-body-md flex flex-col min-h-screen"><header class="fixed top-0 w-full z-50 bg-surface/85 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.03)] pt-safe"><div class="h-20 px-margin-sm flex items-center justify-between gap-space-sm"><div class="flex items-center gap-space-sm"><img alt="Mulberry Seeds Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBndYzQpwtGDnA7QFBugD-XRetIyNyTiivdsg6YFt6YmJMhvbFYIPblngY_4keRKSYj65POiPgGdkjrn8qHFfWXc8Kw6AhQC9b4hpCaCLPBOeEl-tgz66qj3cz2YYgKQyasrz5rNVeTemjaUj5ASLAk2DiwN1z8DdoECxgM5iQSerNB1dGEWkMe-WN6KvHQC0q4FCk9yKxIV4It1u83Wx5hwzVP9fJ1J4KdhEt3fpwEIDPxRH_NeFMJ"/><div class="flex flex-col"><span class="font-title-md text-title-md text-primary leading-tight">حبات التوت</span><span class="font-label-sm text-label-sm text-secondary tracking-widest uppercase">Mulberry Seeds</span></div></div><div class="hidden"><span class="font-title-md text-title-md">Al Raisiya</span></div><div class="flex items-center gap-space-sm"><button class="min-h-[44px] px-space-sm py-space-xs rounded-full bg-surface-container text-on-surface-variant font-label-sm text-label-sm hover:text-primary transition-colors flex items-center justify-center" type="button">EN</button><button class="min-h-[44px] min-w-[44px] relative flex items-center justify-center text-primary hover:text-on-surface-variant transition-colors" onclick="toggleCartDrawer(true)" type="button"><span class="material-symbols-outlined text-[24px]">shopping_bag</span><span class="absolute top-1.5 -right-1 w-4 h-4 bg-primary text-on-primary font-label-sm text-[10px] leading-none rounded-full flex items-center justify-center font-bold" id="header-cart-badge">0</span></button><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shadow-[0_2px_6px_rgba(46,0,19,0.15)]"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div><nav class="overflow-x-auto no-scrollbar px-margin-sm flex items-center gap-space-md h-10 bg-surface-container-lowest/60 backdrop-blur-md" data-active-classes="text-primary font-bold border-b-2 border-primary"><a aria-current="page" class="min-h-[44px] whitespace-nowrap transition-colors flex items-center text-primary font-bold border-b-2 border-primary" data-path="al-raisiya" href="#">الرئيسية</a><a class="min-h-[44px] whitespace-nowrap font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors flex items-center" data-path="al-mumayaza" href="#menu-catalog" onclick="filterCategory('classic', document.querySelectorAll('.category-btn')[1])">المميزة</a><a class="min-h-[44px] whitespace-nowrap font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors flex items-center" data-path="al-menu-al-kamel" href="#menu-catalog">المنيو الكامل</a><a class="min-h-[44px] whitespace-nowrap font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors flex items-center" data-path="cake-al-monasabat" href="#menu-catalog" onclick="filterCategory('celebration', document.querySelectorAll('.category-btn')[4])">كيك المناسبات</a><a class="min-h-[44px] whitespace-nowrap font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors flex items-center" data-path="cake-al-suwar" href="#photo-cake-section">كيك الصور</a><a class="min-h-[44px] whitespace-nowrap font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors flex items-center" data-path="tawasal-maana" href="#contact-footer">تواصل معنا</a></nav></header><main class="flex flex-col relative w-full pt-20 bg-surface pb-32"><div class="flex flex-col w-full text-on-surface">
+<!-- Subtle Ambient Glow Decor -->
+<div class="relative w-full overflow-hidden">
+<!-- SECTION 1: CINEMATIC HERO SECTION -->
+<section class="relative px-margin-sm pt-space-md pb-space-lg flex flex-col items-center text-center">
+<!-- Location & Artisanal Pill Badges -->
+<div class="flex flex-wrap items-center justify-center gap-space-xs mb-space-sm">
+<span class="inline-flex items-center gap-1.5 px-space-sm py-1 rounded-full bg-secondary-container text-on-secondary-fixed text-label-sm font-label-sm shadow-sm">
+<span class="material-symbols-outlined text-[15px] text-primary">location_on</span>
+<span class="">الجبل الشمالي، الرصيفة • بجانب طالب مول 2</span>
+</span>
+<span class="inline-flex items-center gap-1.5 px-space-sm py-1 rounded-full bg-surface-container text-primary text-label-sm font-label-sm shadow-sm">
+<span class="material-symbols-outlined text-[15px] text-primary" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="">حلويات فاخرة وحرفية ملكية</span>
+</span>
+</div>
+<!-- Editorial Main Title -->
+<h1 class="font-display-hero-mobile text-display-hero-mobile text-primary tracking-tight mb-space-xs max-w-xl">
+        إبداعات حلوة تصنع ذكرياتكم
+      </h1>
+<p class="font-body-md text-body-md text-secondary max-w-md mx-auto mb-space-md">
+        نبتكر أرقى الكيكات والموس والشوكولاتة البلجيكية بشغف أصيل يمزج بين الضيافة الأردنية وفنون الباتيسري الراقية.
+      </p>
+<!-- Action Buttons -->
+<div class="flex items-center justify-center gap-space-sm w-full max-w-sm mb-space-lg">
+<a class="flex-1 py-3 px-space-md bg-primary text-on-primary rounded-full font-label-lg text-label-lg text-center shadow-md active:scale-95 transition-all" href="#menu-catalog">
+          استكشف المنيو الكامل
+        </a>
+<a class="flex items-center justify-center gap-1.5 py-3 px-space-md bg-surface-container-lowest text-primary rounded-full font-label-lg text-label-lg shadow-sm hover:bg-surface-container transition-all" href="https://wa.me/962791043129?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%B7%D9%84%D8%A8%20%D8%AD%D9%84%D9%88%D9%8A%D8%A7%D8%AA%20%D8%AD%D8%A8%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D9%88%D8%AA" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[18px]">chat</span>
+<span class="">اطلب واتساب</span>
+</a>
+</div>
+<!-- Feature High-End Gallery Card Showcase -->
+<div class="relative w-full rounded-xl overflow-hidden shadow-xl bg-surface-container-low p-2">
+<div class="relative w-full h-56 rounded-lg overflow-hidden">
+<img class="w-full h-full object-cover" src="https://images.unsplash.com/photo-1578985545062-69928b1d9587"" src="https://lh3.googleusercontent.com/aida/AEtjO1VqZYS1eIVu7zJ84yjGyBDv5ozWFozUcjo8VxUH1ksCnOj1pjsWve-P9wd_h1iV1MNZPGq-MFQNqCtFsMjN9KT7hmwbE-OptAibAu9q6vNLgFUkp-sKNvLhMwCQqZiSc8dHsRs3qF22QJHR91Y8diDsmCwKofQ0F4if1sYoe2rmcTE8quJDZm2bSa_eCV65uYUq0XJq8PC506a5VYHuZJMD9Rr_xa0hXmxzgzC2mHTt"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-transparent to-transparent flex flex-col justify-end p-space-sm text-right">
+<span class="font-label-sm text-label-sm text-primary-fixed uppercase tracking-wider">توقيع الدار الحصري</span>
+<span class="font-title-md text-title-md text-on-primary">كيكة حبات التوت الملكية Signature Gateau</span>
+</div>
+</div>
+</div>
+</section>
+<!-- FLOATING CART INDICATOR PILL (Visible when items in cart) -->
+<div class="fixed bottom-24 left-4 right-4 z-40 transition-all duration-300 transform translate-y-24 opacity-0 pointer-events-none" id="cart-float-bar">
+<button class="w-full py-3.5 px-space-md bg-primary-container text-on-primary rounded-full shadow-2xl flex items-center justify-between active:scale-[0.98]" onclick="toggleCartDrawer(true)">
+<div class="flex items-center gap-2">
+<span class="w-7 h-7 rounded-full bg-primary-fixed text-primary font-bold text-xs flex items-center justify-center" id="cart-bubble-count">0</span>
+<span class="font-label-lg text-label-lg">سلة الطلبات الخاصة بك</span>
+</div>
+<div class="flex items-center gap-1 font-title-md text-title-md text-primary-fixed">
+<span class="" id="cart-bubble-total">0.00</span>
+<span class="text-xs">د.أ</span>
+<span class="material-symbols-outlined text-lg mr-1">arrow_back</span>
+</div>
+</button>
+</div>
+<!-- SECTION 2: INTERACTIVE MENU & FILTERABLE CATALOG -->
+<section class="px-margin-sm py-space-md flex flex-col gap-space-md" id="menu-catalog">
+<!-- Section Title & Subheading -->
+<div class="flex flex-col text-right">
+<span class="font-label-sm text-label-sm text-secondary tracking-widest uppercase">قائمة الأطايب الحرفية</span>
+<h2 class="font-headline-md text-headline-md text-primary">المنيو والتشكيلة الكاملة</h2>
+</div>
+<!-- Live Search & Category Filtering Bar -->
+<div class="flex flex-col gap-space-sm">
+<div class="relative w-full">
+<span class="material-symbols-outlined absolute right-3.5 top-1/2 -translate-y-1/2 text-outline text-[20px]">search</span>
+<input class="w-full h-12 pr-11 pl-4 rounded-full bg-surface-container-lowest text-on-surface text-body-md shadow-sm placeholder:text-outline focus:outline-none focus:ring-1 focus:ring-primary" id="menu-search-input" oninput="handleMenuSearch(this.value)" placeholder="ابحث عن كيكتك المفضلة (فراولة، لوتس، بستاشيو...)" type="text"/>
+</div>
+<!-- Horizontal scroll categories chips -->
+<div class="flex items-center gap-space-xs overflow-x-auto no-scrollbar pb-1 text-right" id="category-pills">
+<button class="category-btn active min-h-[38px] px-space-md py-1.5 rounded-full text-label-md font-label-md whitespace-nowrap bg-primary text-on-primary shadow-sm transition-all" onclick="filterCategory('all', this)" type="button">الكل</button>
+<button class="category-btn min-h-[38px] px-space-md py-1.5 rounded-full text-label-md font-label-md whitespace-nowrap bg-surface-container text-on-surface-variant shadow-sm transition-all" onclick="filterCategory('classic', this)" type="button">الكيكات الكلاسيكية</button>
+<button class="category-btn min-h-[38px] px-space-md py-1.5 rounded-full text-label-md font-label-md whitespace-nowrap bg-surface-container text-on-surface-variant shadow-sm transition-all" onclick="filterCategory('cheesecake', this)" type="button">التشيز كيك والحلويات</button>
+<button class="category-btn min-h-[38px] px-space-md py-1.5 rounded-full text-label-md font-label-md whitespace-nowrap bg-surface-container text-on-surface-variant shadow-sm transition-all" onclick="filterCategory('single', this)" type="button">القطع الفردية والموس</button>
+<button class="category-btn min-h-[38px] px-space-md py-1.5 rounded-full text-label-md font-label-md whitespace-nowrap bg-surface-container text-on-surface-variant shadow-sm transition-all" onclick="filterCategory('celebration', this)" type="button">كيك المناسبات والتصاميم</button>
+</div>
+</div>
+<!-- Dynamic Product List Container -->
+<div class="flex flex-col gap-space-sm" id="product-grid"></div>
+</section>
+<!-- SECTION 3: DEDICATED PHOTO CAKE (كيكة الصور) CALCULATOR -->
+<section class="mx-margin-sm my-space-md p-space-md rounded-xl bg-surface-container-lowest shadow-lg flex flex-col gap-space-md" id="photo-cake-section">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-full bg-secondary-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[24px]">add_a_photo</span>
+</div>
+<div class="flex flex-col text-right">
+<span class="font-label-sm text-label-sm text-secondary uppercase">حاسبة كيك الصور الدقيقة</span>
+<h3 class="font-headline-sm text-headline-sm text-primary">كيكة الصور المطبوعة حسب المقاس</h3>
+</div>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant text-right">
+        اطبع صورتكم المفضلة أو تصميم مناسبتكم بأعلى جودة غذائية صالحة للأكل. اختاروا عدد الأشخاص لحساب القياس والسعر مباشرة:
+      </p>
+<!-- Visual Preview of Dimension Canvas -->
+<div class="relative w-full h-44 rounded-lg bg-surface-container-low p-space-sm flex flex-col items-center justify-center overflow-hidden">
+<img class="absolute inset-0 w-full h-full object-cover opacity-25" data-alt="A personalized celebratory square cake with an edible photographic icing portrait framed with piping cream" src="https://lh3.googleusercontent.com/aida/AEtjO1XTU8lxYOaGjI7P7EvIr9Tq9fhCzbHAsUrIzQhtVsBcLgkCyJ8RCyjO57cCvmZ7jY8vuoywkcTKH1xOKmePKLA6TEbz-g50Pc7lj4T7Dao8mYiSOBHQN8I8kPBHfY-GumhtcpZXhR014RIa_ldl8ct5kUjXuXoUkDP5HFvxoBAIVW-8U8r47wl9MufZXhybUChPf4uYJR0zHuF2ShDZ4VU_ISHZS8yDv-48yNrIjbmT"/>
+<div class="relative z-10 flex flex-col items-center justify-center text-center p-space-sm bg-surface/90 rounded-lg shadow-sm">
+<span class="font-title-md text-title-md text-primary font-bold" id="calc-display-dimension">14×20 سم</span>
+<span class="font-label-sm text-label-sm text-secondary" id="calc-display-guests">تكفي 8 أشخاص</span>
+<div class="mt-1 flex items-baseline gap-1">
+<span class="font-headline-sm text-headline-sm text-primary font-bold" id="calc-display-price">12</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">دينار أردني</span>
+</div>
+</div>
+</div>
+<!-- Photo Cake Size Selector Chips -->
+<div class="flex flex-col gap-1.5 text-right">
+<label class="font-label-md text-label-md text-primary font-bold">اختر حجم القالب وعدد الضيوف:</label>
+<div class="grid grid-cols-2 gap-2" id="photo-cake-options"></div>
+</div>
+<!-- Add to Cart CTA for Photo Cake -->
+<button class="w-full py-3.5 px-space-md bg-primary text-on-primary rounded-full font-label-lg text-label-lg shadow-md flex items-center justify-center gap-2 active:scale-95 transition-all" onclick="addPhotoCakeToCart()" type="button">
+<span class="material-symbols-outlined text-[19px]">cake</span>
+<span class="">إضافة كيكة الصور إلى السلة</span>
+</button>
+</section>
+<!-- SECTION 4: ARTISANAL VALUES & SIGNATURE TASTING TRAY -->
+<section class="px-margin-sm py-space-md">
+<div class="p-space-md rounded-xl bg-surface-container-low flex flex-col gap-space-sm text-right shadow-sm">
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest">معايير حبات التوت</span>
+<h3 class="font-headline-sm text-headline-sm text-primary">طزاجة يومية ومكونات بلجيكية نقية</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+          نخبز قوالب الكيك طازجة حسب الطلب دون أي مخزون مجمد سابق. الكريمة خفيفة متوازنة الحلاوة، وحشوات الفواكه واللوتس والشوكولاتة البلجيكية تأتيكم بأعلى معايير الرقي.
+        </p>
+<div class="grid grid-cols-3 gap-2 mt-2 pt-2 border-t border-outline-variant/30 text-center">
+<div class="flex flex-col items-center">
+<span class="material-symbols-outlined text-primary text-[22px] mb-1">verified</span>
+<span class="font-label-sm text-label-sm font-bold text-primary">شوكولاتة بلجيكية</span>
+</div>
+<div class="flex flex-col items-center">
+<span class="material-symbols-outlined text-primary text-[22px] mb-1">local_shipping</span>
+<span class="font-label-sm text-label-sm font-bold text-primary">توصيل الرصيفة والزرقاء</span>
+</div>
+<div class="flex flex-col items-center">
+<span class="material-symbols-outlined text-primary text-[22px] mb-1">brush</span>
+<span class="font-label-sm text-label-sm font-bold text-primary">تصاميم مخصصة</span>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 5: ABOUT, LOCATION & CONTACT FOOTER -->
+<footer class="px-margin-sm pt-space-lg pb-space-xl bg-surface-container-highest text-on-surface flex flex-col gap-space-md rounded-t-3xl shadow-lg text-right mt-space-md" id="contact-footer">
+<div class="flex flex-col gap-1">
+<span class="font-label-sm text-label-sm text-secondary uppercase">يسعدنا استقبالكم في معرضنا</span>
+<h3 class="font-headline-sm text-headline-sm text-primary">حلويات حبات التوت | Mulberry Seeds</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+          الرصيفة، الجبل الشمالي، بجانب طالب مول 2، الزرقاء، الأردن.
+        </p>
+</div>
+<!-- Quick Action Buttons Grid -->
+<div class="grid grid-cols-2 gap-space-xs">
+<a class="min-h-[44px] flex items-center justify-center gap-2 p-2 rounded-xl bg-surface-container text-primary font-label-md text-label-md shadow-sm" href="tel:0791043129">
+<span class="material-symbols-outlined text-[18px]">call</span>
+<span class="">0791043129</span>
+</a>
+<a class="min-h-[44px] flex items-center justify-center gap-2 p-2 rounded-xl bg-primary text-on-primary font-label-md text-label-md shadow-sm" href="https://wa.me/962791043129" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[18px]">chat</span>
+<span class="">واتساب المباشر</span>
+</a>
+<a class="min-h-[44px] flex items-center justify-center gap-2 p-2 rounded-xl bg-surface-container text-primary font-label-md text-label-md shadow-sm" href="https://maps.google.com/?q=Al-Ruseifa+Zarqa+Jordan" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[18px]">map</span>
+<span class="">موقع المعرض</span>
+</a>
+<a class="min-h-[44px] flex items-center justify-center gap-2 p-2 rounded-xl bg-surface-container text-primary font-label-md text-label-md shadow-sm" href="https://instagram.com" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[18px]">photo_camera</span>
+<span class="">إنستغرام</span>
+</a>
+</div>
+<!-- Working Hours -->
+<div class="flex items-center justify-between p-space-sm rounded-lg bg-surface-container-low text-on-surface-variant">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[20px]">schedule</span>
+<span class="font-body-sm text-body-sm">أوقات العمل اليومية</span>
+</div>
+<span class="font-label-sm text-label-sm font-bold text-primary">10:00 ص - 11:30 م</span>
+</div>
+<div class="text-center pt-space-xs">
+<p class="font-label-sm text-label-sm text-outline">جميع الحقوق محفوظة © حبات التوت Mulberry Seeds</p>
+</div>
+</footer>
+</div>
+<!-- SLIDE-OVER INTERACTIVE CART & CHECKOUT DRAWER -->
+<div class="fixed inset-0 z-50 bg-primary/40 backdrop-blur-sm opacity-0 pointer-events-none transition-opacity duration-300" id="cart-drawer-backdrop" onclick="toggleCartDrawer(false)"></div>
+<div class="fixed inset-y-0 right-0 z-50 w-full max-w-md bg-surface flex flex-col shadow-2xl transform translate-x-full transition-transform duration-300" id="cart-drawer-panel">
+<!-- Drawer Header -->
+<div class="h-16 px-margin-sm bg-surface-container flex items-center justify-between text-right">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[24px]">shopping_bag</span>
+<span class="font-title-md text-title-md text-primary">سلة الطلبات</span>
+<span class="px-2 py-0.5 rounded-full bg-secondary-container text-on-secondary-fixed text-label-sm font-label-sm" id="cart-drawer-count">0 عناصر</span>
+</div>
+<button class="w-10 h-10 rounded-full flex items-center justify-center text-on-surface-variant hover:text-primary" onclick="toggleCartDrawer(false)" type="button">
+<span class="material-symbols-outlined">close</span>
+</button>
+</div>
+<!-- Drawer Items Scroll Area -->
+<div class="flex-1 overflow-y-auto px-margin-sm py-space-sm flex flex-col gap-space-sm" id="cart-items-container">
+<div class="py-16 flex flex-col items-center justify-center text-center">
+<span class="material-symbols-outlined text-5xl text-outline mb-2">shopping_basket</span>
+<p class="font-title-md text-title-md text-primary font-bold">السلة فارغة حالياً</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">أضف بعض الكيكات الشهية لبدء طلبك الخاص</p>
+</div>
+</div>
+<!-- Drawer Checkout Form Details -->
+<div class="p-margin-sm bg-surface-container-low flex flex-col gap-space-sm text-right">
+<div class="flex flex-col gap-1">
+<label class="font-label-sm text-label-sm text-on-surface-variant">اسم العميل وموقع الاستلام / التوصيل</label>
+<input class="w-full px-3 py-2 rounded-lg bg-surface text-body-sm shadow-sm focus:outline-none focus:ring-1 focus:ring-primary" id="order-customer-name" placeholder="الاسم ورقم الهاتف والموقع بالتفصيل" type="text"/>
+</div>
+<div class="flex flex-col gap-1">
+<label class="font-label-sm text-label-sm text-on-surface-variant">موعد وملاحظات خاصة (كتابة عبارة، لون الشريطة...)</label>
+<input class="w-full px-3 py-2 rounded-lg bg-surface text-body-sm shadow-sm focus:outline-none focus:ring-1 focus:ring-primary" id="order-customer-notes" placeholder="مثال: يرجى كتابة 'سنة حلوة يا سارة'" type="text"/>
+</div>
+<!-- Price Breakdown -->
+<div class="flex items-center justify-between pt-2 border-t border-outline-variant/30">
+<span class="font-title-md text-title-md text-primary font-bold">المجموع الإجمالي:</span>
+<div class="flex items-baseline gap-1 text-primary">
+<span class="font-headline-sm text-headline-sm font-bold" id="cart-total-amount">0.00</span>
+<span class="font-label-sm text-label-sm">د.أ</span>
+</div>
+</div>
+<!-- Direct WhatsApp Submission -->
+<button class="w-full py-3.5 px-space-md bg-primary text-on-primary rounded-full font-label-lg text-label-lg shadow-md flex items-center justify-center gap-2 active:scale-95 transition-all" onclick="sendOrderViaWhatsApp()" type="button">
+<span class="material-symbols-outlined text-[20px]">send</span>
+<span class="">إرسال الطلب عبر واتساب الآن</span>
+</button>
+</div>
+</div>
+</div>
+<script>
+  // Product Catalog Data Store with real matching imagery
+  const products = [
+    {
+      id: 'p1',
+      name: 'كيكة الفراولة الطازجة',
+      category: 'classic',
+      desc: 'طبقات كيك الفانيليا الهشة مع كريمة الفراولة وقطع الفراولة الطازجة الغنية.',
+      image: 'https://lh3.googleusercontent.com/aida/AEtjO1WTZGAkPrhF811B3ffIBrtWC2rHbpvi1Lew7UzfAhmj6SihSiIelxjedVyXGzoOwMg-xYoGeyMyBK5IBrDb7Wrz2nUvNdPGgBeM4GP3BK7CNUdcR7Byx8qsbiDlUTq5Bz9jeYbBH2y7uJUklvmTlb__o5y7IZmqc8vJZdWqDXzhxoXsg6hAmM-_UuCN40MH2cJO-5S8FvUfV-wpqJOV7d8l4Sbk_Ag6M9dCVHW58Sj3',
+      options: [
+        { label: 'صغير', price: 8 },
+        { label: 'وسط', price: 10 },
+        { label: 'كبير', price: 14 }
+      ]
+    },
+    {
+      id: 'p2',
+      name: 'كيكة كيندر بوينو الملكية',
+      category: 'classic',
+      desc: 'مزيج فاخر من كريمة البندق الإيطالية وقطع شوكولاتة كيندر بوينو المقرمشة.',
+      image: 'https://lh3.googleusercontent.com/aida/AEtjO1XnAOZgXHEG02jbRdG1dXNM43ItYkHfqz9vIO4ZN0bx_Co34OlcHsSyAN6oah6PtsYHrAX1HYfKBaiSclWuyuHQgxLqg7e61zTDc9ikFhSWPm-Uw9kuPpP4RAtyGUJh26pVe-GG9S-hs8I0ogdk8UZWdYSKwcZXIxjjxQEDoc_G5QadPAuV2yjdCghOng4T7IV-rawYt9YS74ptrfnJwewpI3tubNMS_Lrmh8auGHMm',
+      options: [
+        { label: 'صغير', price: 7 },
+        { label: 'وسط', price: 9 },
+        { label: 'كبير', price: 13 }
+      ]
+    },
+    {
+      id: 'p3',
+      name: 'كيكة اللوتس الأصلية',
+      category: 'classic',
+      desc: 'بسكويت لوتس بيسكوف المكرمل مع طبقات سبونج خفيفة وزبدة اللوتس الذائبة.',
+      image: 'https://lh3.googleusercontent.com/aida/AEtjO1Vae8hra2juWqLnqpnwnlMm-zD_MZGpxyFuS8O-F6jo4N-b2m3GgPjKGMnGvqvGinU_oS0fZzamVks2tbyarXsreq4Y8RDVfGEf7TuxTJUrS13BoG8B4nq01-rlI4Phg6lZvwTt4ID3XYiX20lvOGX-xcrGiIZlY1B9lnKAvHxO4s0OZQOVk-rx4-_ZZoxbVYD6EMUMwFCWbXsiL2aiLQB5o-nw1pz-Z8prCAK_OtRV',
+      options: [
+        { label: 'صغير', price: 7 },
+        { label: 'وسط', price: 9 },
+        { label: 'كبير', price: 13 }
+      ]
+    },
+    {
+      id: 'p4',
+      name: 'كيكة الفيروروشيه الفاخرة',
+      category: 'classic',
+      desc: 'شوكولاتة نوتيلا فاخرة وبندق محمص مقرمش مع كرات روشيه ذهبية.',
+      image: 'https://lh3.googleusercontent.com/aida/AEtjO1W_at7ghMCPI-FN06iA1b6HC3mnr9d8AxP5SHjZZpmlIRzKNCjEg14L5e5HKQQMfcmd_7HJb2L2lxzRc8zLwFgalDFaxkiUqTE712y2Q9pAIZ5JZNvQTPqcenjchRYGe5m-APUdBuOdpP_7rwsREo-rJZX3pJNc-CI8mtMSOSKxTjmJWgJlxFXa0wfEfdqtdqPQVioWxsky9pSAnCAinQxxIh9pIK9HosiIpCqThuJk',
+      options: [
+        { label: 'صغير', price: 8 },
+        { label: 'وسط', price: 10 },
+        { label: 'كبير', price: 14 }
+      ]
+    },
+    {
+      id: 'p5',
+      name: 'كيكة السنكرز مع الكراميل المملح',
+      category: 'classic',
+      desc: 'فول سوداني محمص مع كراميل متوازن وطبقات جاناش الشوكولاتة المكثفة.',
+      image: 'https://lh3.googleusercontent.com/aida/AEtjO1X-k1WCWcTtcYZj8QeFgHCSJ6jfvhWuyfn8JWq6tdelKvybhTYGZKjbPgcOhEqc7F_gRNlnIAJGbVtQUmvVvPLgghjnS_bGuTtD6fZpQGuwvFbTewA69moiHg0PdNqKwADT2yo0lCsPRTRs6SrRK9s7rpCWTpXQuZDl7g4r8YGr_uoQlKBdW0eheJVbUfEWk2tvpeeFd6ToGzQQaDFvpUJ0krTK51hOJBBL1oJ2Pkk',
+      options: [
+        { label: 'صغير', price: 7 },
+        { label: 'وسط', price: 9 },
+        { label: 'كبير', price: 13 }
+      ]
+    },
+    {
+      id: 'p6',
+      name: 'كيكة الأوريو كرانش',
+      category: 'classic',
+      desc: 'كريمة الأوريو الناعمة مع قطع البسكويت المقرمشة وكيك الشوكولاتة الداكنة.',
+      image: 'https://lh3.googleusercontent.com/aida/AEtjO1UjRbxg25v2FBnhdQiQe6P7D4oLU3iomqtrz6kcD6M8YY5rg6XdbKmgUJCse9L3rI2K9DP6hUdrXbP8Yv2MAUBv8JY5zJnbcqdKvvgOXIKi_DGwJzSSeFxeCk6nQtM7CVeKXC7MDeafzbCcn2ZJODVN4cN6oqisuFo1kBXHGQ0vKLNoJgeV3lUgVRf9vGfpV7F2VOcrBVFl2bmi4QwsGSOrLnKCnpMI0i2laSTucGip',
+      options: [
+        { label: 'صغير', price: 7 },
+        { label: 'وسط', price: 9 },
+        { label: 'كبير', price: 13 }
+      ]
+    },
+    {
+      id: 'p7',
+      name: 'كيكة الكروكان المقرمش',
+      category: 'classic',
+      desc: 'حبات اللوز المكرمل الذهبي المحمص على طبقات كيك فانيليا زبدية مميزة.',
+      image: 'https://lh3.googleusercontent.com/aida/AEtjO1V_Y8S4J5Zvf5UVJwg8wvvZlg0nf_KHjrAKGYdAXiMIsAd9pQRo5SFVQodwpDWDzhwyj3V2Sc1Ph7TC64xdAjgtPP_6A3hhS8FyWCnVIhw-SsZSi8OYMWk2A197cCOTwiSmCBYomqhjQfD584ppOPtLCGdYv96EDKTYifNuyM9xIjc3QJCcs3fblvXa1DG1sYbl5cxiDCE1WdLrkVarhrNwCLT_4sRTM-of9zcw1dIE',
+      options: [
+        { label: 'صغير', price: 8 },
+        { label: 'وسط', price: 10 },
+        { label: 'كبير', price: 15 }
+      ]
+    },
+    {
+      id: 'p8',
+      name: 'كيكة الفواكه الاستوائية والموسمية',
+      category: 'classic',
+      desc: 'تشكيلة متألقة من الكيوي، الأناناس، الفراولة، والعنب مع سبونج هش للغاية.',
+      image: 'https://lh3.googleusercontent.com/aida/AEtjO1VX0DJkxxMshR99W8HkJMPJJT9L5lnDMdGFkXqd5HQDZv5VnXzJJxO0nnERwmXzdMT4UqYqbgJC8qzp8OTF1MPGm5c0sm6oJrL2Ga5dCzT0zXZpM2w1JwZCbbCbKyeXu4VhF0wmljkrvjnP1uXGVaBJN9Swhy0s-mQGbz2hgjepEKelg9ZZ7UaOTQpoV0GO6PkBVJgxoMRf5_MQTdFZrjsX8RC23IJirJtWY7TxNP1f',
+      options: [
+        { label: 'صغير', price: 8 },
+        { label: 'وسط', price: 10 },
+        { label: 'كبير', price: 15 }
+      ]
+    },
+    {
+      id: 'p9',
+      name: 'كيكة Chocolate Chip الغنية',
+      category: 'classic',
+      desc: 'شوكولاتة سويسرية وحبيبات الشوكولاتة البلجيكية الذائبة بين الطبقات.',
+      image: 'https://lh3.googleusercontent.com/aida/AEtjO1W_at7ghMCPI-FN06iA1b6HC3mnr9d8AxP5SHjZZpmlIRzKNCjEg14L5e5HKQQMfcmd_7HJb2L2lxzRc8zLwFgalDFaxkiUqTE712y2Q9pAIZ5JZNvQTPqcenjchRYGe5m-APUdBuOdpP_7rwsREo-rJZX3pJNc-CI8mtMSOSKxTjmJWgJlxFXa0wfEfdqtdqPQVioWxsky9pSAnCAinQxxIh9pIK9HosiIpCqThuJk',
+      options: [
+        { label: 'صغير', price: 8 },
+        { label: 'وسط', price: 10 },
+        { label: 'كبير', price: 14 }
+      ]
+    },
+    {
+      id: 'p10',
+      name: 'كيكة نوتيلا مع الفراولة الطبيعية',
+      category: 'classic',
+      desc: 'المزيج المحبوب عالمياً؛ نوتيلا أصيلة وفاكهة الفراولة الطازجة من المزرعة.',
+      image: 'https://lh3.googleusercontent.com/aida/AEtjO1WTZGAkPrhF811B3ffIBrtWC2rHbpvi1Lew7UzfAhmj6SihSiIelxjedVyXGzoOwMg-xYoGeyMyBK5IBrDb7Wrz2nUvNdPGgBeM4GP3BK7CNUdcR7Byx8qsbiDlUTq5Bz9jeYbBH2y7uJUklvmTlb__o5y7IZmqc8vJZdWqDXzhxoXsg6hAmM-_UuCN40MH2cJO-5S8FvUfV-wpqJOV7d8l4Sbk_Ag6M9dCVHW58Sj3',
+      options: [
+        { label: 'صغير', price: 8 },
+        { label: 'وسط', price: 10 },
+        { label: 'كبير', price: 14 }
+      ]
+    },
+    {
+      id: 'p11',
+      name: 'كيكة حبات التوت الحصرية (توقيع الدار)',
+      category: 'classic',
+      desc: 'توت العليق الأسود والأحمر مع كريمة التوت البلسمية وخلاصة التوت المركز.',
+      image: 'https://lh3.googleusercontent.com/aida/AEtjO1VqZYS1eIVu7zJ84yjGyBDv5ozWFozUcjo8VxUH1ksCnOj1pjsWve-P9wd_h1iV1MNZPGq-MFQNqCtFsMjN9KT7hmwbE-OptAibAu9q6vNLgFUkp-sKNvLhMwCQqZiSc8dHsRs3qF22QJHR91Y8diDsmCwKofQ0F4if1sYoe2rmcTE8quJDZm2bSa_eCV65uYUq0XJq8PC506a5VYHuZJMD9Rr_xa0hXmxzgzC2mHTt',
+      options: [
+        { label: 'صغير', price: 8 },
+        { label: 'وسط', price: 10 },
+        { label: 'كبير (حسب الطلب)', price: 16 }
+      ]
+    },
+    {
+      id: 'p12',
+      name: 'شوكولاتة دبي بالبستاشيو والكنافة المقرمشة',
+      category: 'cheesecake',
+      desc: 'التريند الأشهر؛ شوكولاتة بلجيكية فاخرة محشوة بحشوة الفستق الحلبي المقرمشة بالكنافة المحمصة.',
+      image: 'https://lh3.googleusercontent.com/aida/AEtjO1Vykqhs7GZW-vJp6nZ51E7lbUGpJgLUNmGRIuzTEELc_FElgGq8GqZQ8M1GsJCW_vnTEcoiUgt1leV9oNBxhQyTHKrHmbw76dkEsTO5BkUam9OdvRhd_y704Ec8iqp1uV6svcWE92_DEkW8w_ubknQHTp-bTx60syrjdflX_7eTZpcqU2RtMySIeb9NNuvMrY6QW9lLz05WdXt-YgBd727bM_Kh9UgfyTqOih_n2Ecj',
+      options: [
+        { label: 'لوح كامل', price: 3.5 }
+      ]
+    },
+    {
+      id: 'p13',
+      name: 'قالب تشيز كيك فاخر كبير',
+      category: 'cheesecake',
+      desc: 'جبنة فيلادلفيا غنية على قاعدة مقرمشة (متوفر: لوتس، بلو بيري، كرز، فراولة).',
+      image: 'https://lh3.googleusercontent.com/aida/AEtjO1Uzn-Y9O56TRZ9iDi1mpTyZHcCmQ_Fg3bUoHlMELPIMOlUx5Rt2HQMuXxMn0zfz7zkJ6RkiYjf0dnuxz8MlWRDp9oqWfuvEHMQNJHV1oQNRbElNooSZjLBoF1_3pwdiX0NNpKlMQ8bBtc3d9cf26U9MIUKnCURMkJz37RAUMPhaa1wQeNT2oW1P8IB9h1NvUGnG6EkZEo51JBzFwebbb_qUDnQcsI1RqlUDzfmdRNhc',
+      options: [
+        { label: 'قالب عائلي 10 أشخاص', price: 15 }
+      ]
+    },
+    {
+      id: 'p14',
+      name: 'الكيكة التركية بالحليب والكراميل (تريليتشا)',
+      category: 'cheesecake',
+      desc: 'سبونج مشبع بثلاثة أنواع حليب كريمية مع طبقة توفي كراميل فاخرة.',
+      image: 'https://lh3.googleusercontent.com/aida/AEtjO1Xsxwd5wb_VSTzo7ya-4VKKzzU3Br_4TYLDJ-ZOBImvouACsJHV7lqc-QdfJV_NzUfhMNuJKCaX3hYYmrbKQWxuss0Uhn1IvGBrbAgsO04eC8x0LL7P7Y0ZvnDsRejkX6jiLIeFMDojNxr1k9sv0rO0dVLZXbYs7MO3iZZmxk5ayGkTelAv4LalhcrIEDb-F2IvX06LNGKduV46RNckqGjff_mR_LCLbpAYW3JySlM4',
+      options: [
+        { label: 'طبق 250 غرام', price: 1.5 },
+        { label: '1 كيلوغرام كامل', price: 5 }
+      ]
+    },
+    {
+      id: 'p15',
+      name: 'حلى ديسباسيتو الكولومبي البرازيلي',
+      category: 'cheesecake',
+      desc: 'كاسات غنية بموس الشوكولاتة البلجيكية وكيك الفادج اللذيذ.',
+      image: 'https://lh3.googleusercontent.com/aida/AEtjO1X-k1WCWcTtcYZj8QeFgHCSJ6jfvhWuyfn8JWq6tdelKvybhTYGZKjbPgcOhEqc7F_gRNlnIAJGbVtQUmvVvPLgghjnS_bGuTtD6fZpQGuwvFbTewA69moiHg0PdNqKwADT2yo0lCsPRTRs6SrRK9s7rpCWTpXQuZDl7g4r8YGr_uoQlKBdW0eheJVbUfEWk2tvpeeFd6ToGzQQaDFvpUJ0krTK51hOJBBL1oJ2Pkk',
+      options: [
+        { label: 'حبة فردية', price: 2.5 }
+      ]
+    },
+    {
+      id: 'p16',
+      name: 'بتيفورات وشوكولاتات بلجيكية مشكلة',
+      category: 'cheesecake',
+      desc: 'بتيفور هش بالسمنة الحيوانية والزبدة وشوكولاتة بلجيكية محشوة فاخرة.',
+      image: 'https://lh3.googleusercontent.com/aida/AEtjO1Vykqhs7GZW-vJp6nZ51E7lbUGpJgLUNmGRIuzTEELc_FElgGq8GqZQ8M1GsJCW_vnTEcoiUgt1leV9oNBxhQyTHKrHmbw76dkEsTO5BkUam9OdvRhd_y704Ec8iqp1uV6svcWE92_DEkW8w_ubknQHTp-bTx60syrjdflX_7eTZpcqU2RtMySIeb9NNuvMrY6QW9lLz05WdXt-YgBd727bM_Kh9UgfyTqOih_n2Ecj',
+      options: [
+        { label: '1 كيلوغرام مشكل', price: 9 }
+      ]
+    },
+    {
+      id: 'p17',
+      name: 'كاسات تيراميسو ماسكاربوني الإيطالي',
+      category: 'single',
+      desc: 'بسكويت ليدي فينجر مشرب بالإسبريسو الطازج مع جبن ماسكاربوني الفاخر وبودرة الكاكاو.',
+      image: 'https://lh3.googleusercontent.com/aida/AEtjO1Xsxwd5wb_VSTzo7ya-4VKKzzU3Br_4TYLDJ-ZOBImvouACsJHV7lqc-QdfJV_NzUfhMNuJKCaX3hYYmrbKQWxuss0Uhn1IvGBrbAgsO04eC8x0LL7P7Y0ZvnDsRejkX6jiLIeFMDojNxr1k9sv0rO0dVLZXbYs7MO3iZZmxk5ayGkTelAv4LalhcrIEDb-F2IvX06LNGKduV46RNckqGjff_mR_LCLbpAYW3JySlM4',
+      options: [
+        { label: 'كوب فردي', price: 2 }
+      ]
+    },
+    {
+      id: 'p18',
+      name: 'تشكيلة قطع فردية وموس فاخرة',
+      category: 'single',
+      desc: 'قطع تشيز كيك، كيكة ألمانية، مافن نوتيلا، كيكة جزر، موس سنكرز، رد فلفت، أو ليزي كيك.',
+      image: 'https://lh3.googleusercontent.com/aida/AEtjO1Uzn-Y9O56TRZ9iDi1mpTyZHcCmQ_Fg3bUoHlMELPIMOlUx5Rt2HQMuXxMn0zfz7zkJ6RkiYjf0dnuxz8MlWRDp9oqWfuvEHMQNJHV1oQNRbElNooSZjLBoF1_3pwdiX0NNpKlMQ8bBtc3d9cf26U9MIUKnCURMkJz37RAUMPhaa1wQeNT2oW1P8IB9h1NvUGnG6EkZEo51JBzFwebbb_qUDnQcsI1RqlUDzfmdRNhc',
+      options: [
+        { label: 'قطعة ميني', price: 0.5 },
+        { label: 'قطعة سوبريم', price: 1 }
+      ]
+    },
+    {
+      id: 'p19',
+      name: 'كيكة اليونيكورن السحرية للأطفال',
+      category: 'celebration',
+      desc: 'تصميم ثلاثي الأبعاد بألوان الباستيل مع قرن ذهبي وتزيين كريمة بألوان الطيف.',
+      image: 'https://lh3.googleusercontent.com/aida/AEtjO1XTU8lxYOaGjI7P7EvIr9Tq9fhCzbHAsUrIzQhtVsBcLgkCyJ8RCyjO57cCvmZ7jY8vuoywkcTKH1xOKmePKLA6TEbz-g50Pc7lj4T7Dao8mYiSOBHQN8I8kPBHfY-GumhtcpZXhR014RIa_ldl8ct5kUjXuXoUkDP5HFvxoBAIVW-8U8r47wl9MufZXhybUChPf4uYJR0zHuF2ShDZ4VU_ISHZS8yDv-48yNrIjbmT',
+      options: [
+        { label: 'صغير', price: 15 },
+        { label: 'وسط', price: 17 },
+        { label: 'كبير', price: 20 }
+      ]
+    },
+    {
+      id: 'p20',
+      name: 'كيك المناسبات (سبايدرمان / سيارة / فراشات)',
+      category: 'celebration',
+      desc: 'كيك مخصص بالكامل لحفلات التخرج، أعياد الميلاد، والخطوبة بأشكال مجسمة أنيقة.',
+      image: 'https://lh3.googleusercontent.com/aida/AEtjO1XTU8lxYOaGjI7P7EvIr9Tq9fhCzbHAsUrIzQhtVsBcLgkCyJ8RCyjO57cCvmZ7jY8vuoywkcTKH1xOKmePKLA6TEbz-g50Pc7lj4T7Dao8mYiSOBHQN8I8kPBHfY-GumhtcpZXhR014RIa_ldl8ct5kUjXuXoUkDP5HFvxoBAIVW-8U8r47wl9MufZXhybUChPf4uYJR0zHuF2ShDZ4VU_ISHZS8yDv-48yNrIjbmT',
+      options: [
+        { label: 'قالب تصميم وسط', price: 16 },
+        { label: 'قالب تصميم كبير', price: 22 }
+      ]
+    }
+  ];
+  // Replace broken product image URLs
+const workingImageMap = {
+  p1:  "https://www.lochef.it/images/generated/images/ricette/original/torta-alle-fragole-panna-e-nutella_b155e247c7d7.jpg",
+  p2:  "https://alwaysbakeddsm.com/cdn/shop/products/20221205_005801_952x.jpg?v=1670223870",
+  p3:  "https://bakersoven.in/public/uploads/all/lotus-biscoff-cake-1766041622.webp",
+  p4:  "https://www.ferrerorocher.com/in/sites/ferrerorocher20_in/files/2021-07/chocolate-cake-carousel-1.png?t=1770741330",
+  p5:  "https://nuri-bezsahara.kz/_next/image?q=75&url=%2Fimages%2Frecipes%2Fsnickers.png&w=1200",
+  p6:  "https://images.unsplash.com/photo-1578985545062-69928b1d9587",
+  p7:  "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e",
+  p8:  "https://images.unsplash.com/photo-1565958011703-44f9829ba187",
+  p9:  "https://images.unsplash.com/photo-1578985545062-69928b1d9587",
+  p10: "https://www.lochef.it/images/generated/images/ricette/original/torta-alle-fragole-panna-e-nutella_b155e247c7d7.jpg",
+  p11: "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e",
+  p12: "https://m.media-amazon.com/images/I/71tKbYPn1GL._AC_SL1080_.jpg",
+  p13: "https://d1w7312wesee68.cloudfront.net/tD6r19VztXQoOJ3yqTuapzNZPW-Pc54wQoDm44tWhwY/resize%3Afit%3A720%3A720/plain/s3%3A/toasttab/restaurants/restaurant-19226000000000000/menu/items/6/item-400000062935521236_1771634372.png",
+  p14: "https://cdn2.karaca.com/karaca-cms-uploads/trilece5_ec375ba8a7.png",
+  p15: "https://d26czciiy2b0rz.cloudfront.net/uploads/images/F2-1771843745.jpg",
+  p16: "https://images.unsplash.com/photo-1578985545062-69928b1d9587",
+  p17: "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9",
+  p18: "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e",
+  p19: "https://images.unsplash.com/photo-1535141192574-5d4897c12636",
+  p20: "https://images.unsplash.com/photo-1535141192574-5d4897c12636"
+};
+
+products.forEach(product => {
+  if (workingImageMap[product.id]) {
+    product.image = workingImageMap[product.id];
+  }
+});
+
+  // Photo Cake Price Tiers
+  const photoCakeTiers = [
+    { persons: 8, dim: '14×20 سم', price: 12 },
+    { persons: 10, dim: '18×22 سم', price: 15 },
+    { persons: 15, dim: '22×28 سم', price: 20 },
+    { persons: 18, dim: '24×29 سم', price: 23 },
+    { persons: 20, dim: '25×30 سم', price: 25 },
+    { persons: 25, dim: '26×32 سم', price: 30 },
+    { persons: 30, dim: '28×36 سم', price: 35 },
+    { persons: 35, dim: '30×40 سم', price: 40 }
+  ];
+
+  let selectedPhotoTier = photoCakeTiers[0];
+  let currentCategory = 'all';
+  let searchQuery = '';
+  let cart = [];
+
+  // Product Selection Helper for Multi-tier items
+  const productSelectedOptions = {};
+
+  function initCatalog() {
+    renderProductCards();
+    renderPhotoCakeTiers();
+    updateCartUI();
+  }
+
+  function renderProductCards() {
+    const container = document.getElementById('product-grid');
+    if (!container) return;
+
+    const filtered = products.filter(p => {
+      const matchCat = (currentCategory === 'all' || p.category === currentCategory);
+      const matchSearch = p.name.toLowerCase().includes(searchQuery.toLowerCase()) || 
+                          p.desc.toLowerCase().includes(searchQuery.toLowerCase());
+      return matchCat && matchSearch;
+    });
+
+    if (filtered.length === 0) {
+      container.innerHTML = `
+        <div class="py-12 flex flex-col items-center justify-center text-center p-space-md bg-surface-container-low rounded-xl">
+          <span class="material-symbols-outlined text-4xl text-outline mb-2">sentiment_dissatisfied</span>
+          <p class="font-title-md text-title-md text-primary font-bold">لم نجد أي صنف مطابق</p>
+          <p class="font-body-sm text-body-sm text-on-surface-variant">جرب البحث بكلمات أخرى أو تصفح باقي الأقسام الشهية.</p>
+        </div>
+      `;
+      return;
+    }
+
+    container.innerHTML = filtered.map(item => {
+      const selectedIndex = productSelectedOptions[item.id] !== undefined ? productSelectedOptions[item.id] : 0;
+      const currentPrice = item.options[selectedIndex].price;
+      
+      const optionButtons = item.options.map((opt, idx) => `
+        <button type="button" onclick="selectItemOption('${item.id}', ${idx})" 
+          class="px-2.5 py-1 text-xs rounded-full font-label-sm transition-all ${selectedIndex === idx ? 'bg-primary text-on-primary font-bold' : 'bg-surface-container-high text-on-surface'}">
+          ${opt.label} (${opt.price} د.أ)
+        </button>
+      `).join('');
+
+      return `
+        <div class="p-space-sm rounded-xl bg-surface-container-lowest shadow-sm flex flex-col gap-space-xs text-right">
+          <div class="flex gap-space-sm items-start">
+            <div class="w-24 h-24 rounded-lg overflow-hidden flex-shrink-0 bg-surface-container shadow-sm border border-outline-variant/30">
+              <img
+  src="${item.image}"
+  alt="${item.name}"
+  class="w-full h-full object-cover"
+  loading="lazy"
+  onerror="this.onerror=null; this.style.display='none'; this.parentElement.classList.add('flex','items-center','justify-center'); this.parentElement.innerHTML='<span class=&quot;material-symbols-outlined text-3xl text-outline&quot;>bakery_dining</span>';"
+>
+            </div>
+            <div class="flex-1 flex flex-col justify-between h-24">
+              <div>
+                <h4 class="font-title-md text-title-md text-primary leading-tight">${item.name}</h4>
+                <p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2 mt-0.5">${item.desc}</p>
+              </div>
+              <div class="flex items-center justify-between mt-1">
+                <div class="flex items-baseline gap-1 text-primary">
+                  <span class="font-headline-sm text-headline-sm font-bold">${currentPrice}</span>
+                  <span class="font-label-sm text-label-sm text-secondary">د.أ</span>
+                </div>
+                <button type="button" onclick="addProductToCart('${item.id}')" class="min-h-[36px] px-3 py-1 bg-primary text-on-primary rounded-full font-label-sm text-label-sm shadow-sm flex items-center gap-1 active:scale-95 transition-all">
+                  <span class="material-symbols-outlined text-[16px]">add</span>
+                  <span>إضافة</span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- Sizes/Options Pills -->
+          ${item.options.length > 1 ? `
+            <div class="flex items-center gap-1.5 pt-1 overflow-x-auto no-scrollbar">
+              <span class="font-label-sm text-label-sm text-outline pl-1">الحجم:</span>
+              ${optionButtons}
+            </div>
+          ` : ''}
+        </div>
+      `;
+    }).join('');
+  }
+
+  function selectItemOption(productId, optionIndex) {
+    productSelectedOptions[productId] = optionIndex;
+    renderProductCards();
+  }
+
+  function filterCategory(cat, btn) {
+    currentCategory = cat;
+    document.querySelectorAll('.category-btn').forEach(b => {
+      b.classList.remove('bg-primary', 'text-on-primary');
+      b.classList.add('bg-surface-container', 'text-on-surface-variant');
+    });
+    if (btn) {
+      btn.classList.remove('bg-surface-container', 'text-on-surface-variant');
+      btn.classList.add('bg-primary', 'text-on-primary');
+    }
+    renderProductCards();
+  }
+
+  function handleMenuSearch(val) {
+    searchQuery = val;
+    renderProductCards();
+  }
+
+  // PHOTO CAKE LOGIC
+  function renderPhotoCakeTiers() {
+    const container = document.getElementById('photo-cake-options');
+    if (!container) return;
+
+    container.innerHTML = photoCakeTiers.map((tier, idx) => `
+      <button type="button" onclick="selectPhotoTier(${idx})" class="p-2.5 rounded-lg text-right flex flex-col justify-between transition-all ${selectedPhotoTier.persons === tier.persons ? 'bg-primary text-on-primary shadow-md' : 'bg-surface-container text-on-surface'}">
+        <span class="font-label-md text-label-md font-bold">${tier.persons} أشخاص (${tier.dim})</span>
+        <span class="font-title-md text-title-md mt-1 font-bold ${selectedPhotoTier.persons === tier.persons ? 'text-primary-fixed' : 'text-primary'}">${tier.price} د.أ</span>
+      </button>
+    `).join('');
+
+    updatePhotoCalculatorDisplay();
+  }
+
+  function selectPhotoTier(idx) {
+    selectedPhotoTier = photoCakeTiers[idx];
+    renderPhotoCakeTiers();
+  }
+
+  function updatePhotoCalculatorDisplay() {
+    const dimEl = document.getElementById('calc-display-dimension');
+    const guestsEl = document.getElementById('calc-display-guests');
+    const priceEl = document.getElementById('calc-display-price');
+    if (dimEl) dimEl.innerText = selectedPhotoTier.dim;
+    if (guestsEl) guestsEl.innerText = `تكفي ${selectedPhotoTier.persons} أشخاص`;
+    if (priceEl) priceEl.innerText = selectedPhotoTier.price;
+  }
+
+  function addPhotoCakeToCart() {
+    const cartItemId = `photo-cake-${selectedPhotoTier.persons}`;
+    const existing = cart.find(i => i.id === cartItemId);
+    if (existing) {
+      existing.qty += 1;
+    } else {
+      cart.push({
+        id: cartItemId,
+        name: `كيكة الصور المطبوعة (${selectedPhotoTier.dim})`,
+        spec: `${selectedPhotoTier.persons} أشخاص`,
+        price: selectedPhotoTier.price,
+        qty: 1
+      });
+    }
+    updateCartUI();
+    showCartPulse();
+    toggleCartDrawer(true);
+  }
+
+  // CART LOGIC
+  function addProductToCart(productId) {
+    const product = products.find(p => p.id === productId);
+    if (!product) return;
+    const selectedIndex = productSelectedOptions[productId] !== undefined ? productSelectedOptions[productId] : 0;
+    const opt = product.options[selectedIndex];
+    const cartItemId = `${productId}-${selectedIndex}`;
+
+    const existing = cart.find(i => i.id === cartItemId);
+    if (existing) {
+      existing.qty += 1;
+    } else {
+      cart.push({
+        id: cartItemId,
+        name: product.name,
+        spec: opt.label,
+        price: opt.price,
+        qty: 1
+      });
+    }
+    updateCartUI();
+    showCartPulse();
+  }
+
+  function updateCartQty(cartItemId, delta) {
+    const item = cart.find(i => i.id === cartItemId);
+    if (!item) return;
+    item.qty += delta;
+    if (item.qty <= 0) {
+      cart = cart.filter(i => i.id !== cartItemId);
+    }
+    updateCartUI();
+  }
+
+  function removeCartItem(cartItemId) {
+    cart = cart.filter(i => i.id !== cartItemId);
+    updateCartUI();
+  }
+
+  function updateCartUI() {
+    const totalCount = cart.reduce((acc, curr) => acc + curr.qty, 0);
+    const totalPrice = cart.reduce((acc, curr) => acc + (curr.qty * curr.price), 0);
+
+    const floatBar = document.getElementById('cart-float-bar');
+    const bubbleCount = document.getElementById('cart-bubble-count');
+    const bubbleTotal = document.getElementById('cart-bubble-total');
+    const drawerCount = document.getElementById('cart-drawer-count');
+    const totalAmount = document.getElementById('cart-total-amount');
+    const headerBadge = document.getElementById('header-cart-badge');
+
+    if (bubbleCount) bubbleCount.innerText = totalCount;
+    if (bubbleTotal) bubbleTotal.innerText = totalPrice.toFixed(2);
+    if (drawerCount) drawerCount.innerText = `${totalCount} عناصر`;
+    if (totalAmount) totalAmount.innerText = totalPrice.toFixed(2);
+    if (headerBadge) headerBadge.innerText = totalCount;
+
+    if (floatBar) {
+      if (totalCount > 0) {
+        floatBar.classList.remove('translate-y-24', 'opacity-0', 'pointer-events-none');
+      } else {
+        floatBar.classList.add('translate-y-24', 'opacity-0', 'pointer-events-none');
+      }
+    }
+
+    // Render Drawer Items
+    const container = document.getElementById('cart-items-container');
+    if (!container) return;
+
+    if (cart.length === 0) {
+      container.innerHTML = `
+        <div class="py-16 flex flex-col items-center justify-center text-center">
+          <span class="material-symbols-outlined text-5xl text-outline mb-2">shopping_basket</span>
+          <p class="font-title-md text-title-md text-primary font-bold">السلة فارغة حالياً</p>
+          <p class="font-body-sm text-body-sm text-on-surface-variant">أضف بعض الكيكات الشهية لبدء طلبك الخاص</p>
+        </div>
+      `;
+      return;
+    }
+
+    container.innerHTML = cart.map(item => `
+      <div class="p-space-sm rounded-xl bg-surface-container-lowest shadow-sm flex items-center justify-between text-right">
+        <div class="flex-1 min-w-0 pr-1">
+          <h5 class="font-label-lg text-label-lg text-primary truncate">${item.name}</h5>
+          <span class="font-label-sm text-label-sm text-secondary">${item.spec} • ${item.price} د.أ</span>
+        </div>
+        <div class="flex items-center gap-2">
+          <div class="flex items-center bg-surface-container rounded-full p-0.5">
+            <button type="button" onclick="updateCartQty('${item.id}', -1)" class="w-7 h-7 rounded-full flex items-center justify-center text-primary font-bold hover:bg-surface-container-high">-</button>
+            <span class="px-2 font-label-md text-label-md font-bold text-primary">${item.qty}</span>
+            <button type="button" onclick="updateCartQty('${item.id}', 1)" class="w-7 h-7 rounded-full flex items-center justify-center text-primary font-bold hover:bg-surface-container-high">+</button>
+          </div>
+          <button type="button" onclick="removeCartItem('${item.id}')" class="text-outline hover:text-error">
+            <span class="material-symbols-outlined text-[18px]">delete</span>
+          </button>
+        </div>
+      </div>
+    `).join('');
+  }
+
+  function toggleCartDrawer(open) {
+    const backdrop = document.getElementById('cart-drawer-backdrop');
+    const panel = document.getElementById('cart-drawer-panel');
+
+    if (open) {
+      backdrop.classList.remove('opacity-0', 'pointer-events-none');
+      panel.classList.remove('translate-x-full');
+    } else {
+      backdrop.classList.add('opacity-0', 'pointer-events-none');
+      panel.classList.add('translate-x-full');
+    }
+  }
+
+  function showCartPulse() {
+    const floatBar = document.getElementById('cart-float-bar');
+    if (floatBar) {
+      floatBar.classList.add('scale-105');
+      setTimeout(() => floatBar.classList.remove('scale-105'), 200);
+    }
+  }
+
+  function sendOrderViaWhatsApp() {
+    if (cart.length === 0) {
+      alert('السلة فارغة! يرجى اختيار بعض الأصناف أولاً.');
+      return;
+    }
+
+    const name = document.getElementById('order-customer-name').value.trim() || 'زبون كريم';
+    const notes = document.getElementById('order-customer-notes').value.trim() || 'بدون ملاحظات إضافية';
+    const totalPrice = cart.reduce((acc, curr) => acc + (curr.qty * curr.price), 0);
+
+    let message = `*طلب حلويات جديد من حبات التوت (Mulberry Seeds)* 🎂✨\n\n`;
+    message += `👤 *العميل:* ${name}\n`;
+    message += `📝 *ملاحظات وتفاصيل:* ${notes}\n\n`;
+    message += `*تفاصيل الأصناف المطلوبة:*\n`;
+
+    cart.forEach((item, idx) => {
+      message += `${idx + 1}. ${item.name} (${item.spec}) × ${item.qty} = ${(item.price * item.qty).toFixed(2)} د.أ\n`;
+    });
+
+    message += `\n💰 *المجموع النهائي:* ${totalPrice.toFixed(2)} دينار أردني\n`;
+    message += `📍 *الموقع:* الرصيفة، الجبل الشمالي، بجانب طالب مول 2`;
+
+    const encoded = encodeURIComponent(message);
+    const waUrl = `https://wa.me/962791043129?text=${encoded}`;
+    window.open(waUrl, '_blank');
+  }
+
+  // Initialize on load
+  document.addEventListener('DOMContentLoaded', initCatalog);
+  if (document.readyState === 'complete' || document.readyState === 'interactive') {
+    initCatalog();
+  }
+</script></main><nav class="fixed bottom-0 w-full z-50 pb-safe bg-surface/90 backdrop-blur-xl shadow-[0_-4px_24px_rgba(74,18,40,0.06)]" data-active-classes="text-primary"><div class="flex items-center justify-between h-20 px-margin-sm gap-space-md"><div class="flex items-center gap-space-md flex-1"><a aria-current="page" class="min-h-[44px] flex flex-col items-center justify-center transition-colors text-primary" data-path="al-raisiya" href="#"><span class="material-symbols-outlined text-[22px]">cottage</span><span class="font-label-sm text-label-sm mt-0.5">الرئيسية</span></a><a class="min-h-[44px] flex flex-col items-center justify-center text-on-surface-variant hover:text-primary transition-colors" data-path="al-menu-al-kamel" href="#menu-catalog"><span class="material-symbols-outlined text-[22px]">restaurant_menu</span><span class="font-label-sm text-label-sm mt-0.5">المنيو</span></a><a class="min-h-[44px] flex flex-col items-center justify-center text-on-surface-variant hover:text-primary transition-colors" data-path="cake-al-monasabat" href="#menu-catalog" onclick="filterCategory('celebration', document.querySelectorAll('.category-btn')[4])"><span class="material-symbols-outlined text-[22px]">cake</span><span class="font-label-sm text-label-sm mt-0.5">المناسبات</span></a></div><div class="flex items-center"><a class="min-h-[44px] px-space-md py-space-sm bg-primary text-on-primary rounded-full flex items-center gap-space-xs font-label-md text-label-md shadow-[0_8px_16px_-4px_rgba(46,0,19,0.3)] hover:bg-chocolate transition-all active:scale-[0.98]" href="https://wa.me/962791043129" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[20px]">chat</span><span class="">طلب واتساب سريع</span></a></div></div></nav>
+</body></html>
